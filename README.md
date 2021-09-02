@@ -128,11 +128,7 @@ AI를 활용한 비급여 진료비 자가점검 서비스😊
    			...
    ```
 
-### 팀원 역할 및 소개
+### 팀원
    
-   
-| <IMG src="https://github.com/5anniversary.png?size=100" width="150"> | <IMG src="https://github.com/hansolnoh95.png?size=100" width="150"> | <IMG src="https://github.com/8ugustjaden.png?size=100" width="150"> | <IMG src="https://github.com/JubyKim.png?size=100" width="150"> 
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|                            오준현                            |                            노한솔                            |                            곽민제                            |                            김주은                            |
+| <IMG src="https://https://github.com/yooseonghyeon.png?size=100" width="150"> | <IMG src="https://github.com/JubyKim.png?size=100" width="150"> | <IMG src="https://github.com/fluffyword.png?size=100" width="150">| <IMG src="https://https://github.com/Giggle1998.png?size=100" width="150"> 
 
-   
