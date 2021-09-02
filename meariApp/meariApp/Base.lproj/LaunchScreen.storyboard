@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jUe-BU-HOV">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="HL4-4b-XNz">
+            <objects>
+                <viewController id="jUe-BU-HOV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Uc-wn-ssZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meari_logo" translatesAutoresizingMaskIntoConstraints="NO" id="9tX-h3-kzd">
+                                <rect key="frame" x="50" y="300" width="314" height="296"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bigLeader_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Hcq-2i-Moa">
+                                <rect key="frame" x="235" y="856" width="80" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Dd6-M9-FZ6"/>
+                                    <constraint firstAttribute="width" constant="80" id="TcH-TE-75i"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HIRA_151211_RGB-13" translatesAutoresizingMaskIntoConstraints="NO" id="y08-UT-1jl">
+                                <rect key="frame" x="322" y="851" width="80" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="2oS-g8-erN"/>
+                                    <constraint firstAttribute="width" constant="80" id="y2y-m9-kx0"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="R78-bL-4H5"/>
+                        <color key="backgroundColor" red="0.86087566609999999" green="0.78849689089999997" blue="0.54813501929999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="y08-UT-1jl" secondAttribute="bottom" constant="20" id="3La-J2-l53"/>
+                            <constraint firstItem="R78-bL-4H5" firstAttribute="trailing" secondItem="y08-UT-1jl" secondAttribute="trailing" constant="12" id="64E-BE-R8h"/>
+                            <constraint firstItem="9tX-h3-kzd" firstAttribute="centerY" secondItem="9Uc-wn-ssZ" secondAttribute="centerY" id="Sf1-if-N68"/>
+                            <constraint firstAttribute="bottom" secondItem="Hcq-2i-Moa" secondAttribute="bottom" constant="20" id="XTm-F6-c25"/>
+                            <constraint firstAttribute="bottom" secondItem="9tX-h3-kzd" secondAttribute="bottom" constant="300" id="d9Y-Qj-8Gn"/>
+                            <constraint firstItem="9tX-h3-kzd" firstAttribute="leading" secondItem="9Uc-wn-ssZ" secondAttribute="leading" constant="50" id="gft-g2-um0"/>
+                            <constraint firstItem="9tX-h3-kzd" firstAttribute="centerX" secondItem="9Uc-wn-ssZ" secondAttribute="centerX" id="iKf-o8-Nnj"/>
+                            <constraint firstItem="9tX-h3-kzd" firstAttribute="top" secondItem="9Uc-wn-ssZ" secondAttribute="top" constant="300" id="uxx-SB-axu"/>
+                            <constraint firstAttribute="trailing" secondItem="9tX-h3-kzd" secondAttribute="trailing" constant="50" id="vjt-VP-Mcf"/>
+                            <constraint firstItem="y08-UT-1jl" firstAttribute="leading" secondItem="Hcq-2i-Moa" secondAttribute="trailing" constant="7" id="wpE-WJ-Cpo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GKG-Fl-gnv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="HIRA_151211_RGB-13" width="1375" height="433"/>
+        <image name="bigLeader_logo" width="250" height="66"/>
+        <image name="meari_logo" width="4555" height="2250"/>
+    </resources>
+</document>
