@@ -1,6 +1,6 @@
 # MEARI
 
-<img src="https://user-images.githubusercontent.com/87626172/131877946-3ad59fb4-c608-45d7-b744-97f6dd0d85fd.png" width="150" align = "left">
+<img src="https://user-images.githubusercontent.com/87626172/131877946-3ad59fb4-c608-45d7-b744-97f6dd0d85fd.png" width="135" align = "left">
 
 ```
 🍎 2021 데이터청년캠퍼스 <빅리더 아카데미> 🍎
@@ -29,22 +29,20 @@ AI를 활용한 비급여 진료비 자가점검 서비스😊
 - [새롭게 알게 된 것](#새롭게-알게-된-것)
 
 ### 개발환경 및 사용한 라이브러리
-
-|                          라이브러리                          |               목적               |      |
-| :----------------------------------------------------------: | :------------------------------: | ---- |
-|       [RxSwift](https://github.com/ReactiveX/RxSwift)        |           비동기 처리            | SPM  |
-|     [Kingfisher](https://github.com/onevcat/Kingfisher)      |           이미지 캐실            | SPM  |
-|        [SnapKit](https://github.com/SnapKit/SnapKit)         |          오토 레이아웃           | SPM  |
-|     [Alamofire](https://github.com/Alamofire/Alamofire)      |            서버 통신             | SPM  |
-|           [Then](https://github.com/devxoul/Then)            | 컴포넌트 코드 작성의 용이를 위해 | SPM  |
-|   [FSCalendar](https://github.com/WenchaoD/FSCalendar.git)   |           캘린더 사용            | SPM  |
-| [SwiftKeychainWrapper](https://github.com/jrendel/SwiftKeychainWrapper) |          저장소 암호화           | SPM  |
-| [YPImagePicker](https://github.com/Yummypets/YPImagePicker)  |           사진첩 사용            | SPM  |
-| [RxKeyboard](https://github.com/RxSwiftCommunity/RxKeyboard) |         키보드 동적 사용         | SPM  |
-| [Moya](https://github.com/Moya/Moya)                         |          서버 통신              | SPM  |
-| [Lottie](https://github.com/airbnb/lottie-ios)               |          애니메이션 사용        | SPM  |
-| [SegementSlide](https://github.com/Jiar/SegementSlide) | 탭바 사용 | CocoaPod |
-
+|                       라이브러리                    |               목적                 |      
+| :------------------------------------------------: | :------------------------------: |
+|                        pandas                      |        데이터 분석 및 전처리      |
+|                       lightgbm                     |           머신러닝 모델          |
+|                       xgboost                      |           머신러닝 모델          |
+|                       catboost                     |           머신러닝 모델          |
+|                       sklearn                      |     머신러닝 모델, 성능지표 등    | 
+|                       optuna                       |       하이퍼파라미터 최적화       |
+|                       pickle                       |   머신러닝 모델 저장 및 불러오기  |
+|                 matplotlib, seaborn                |            데이터 시각화         |
+|                       Nanonets                     |              OCR API            |
+|                 google cloud vision                |              OCR API            |
+|                        openCV                      |              영상처리            |
+|                      rhinoMorph                    |            형태소분석기          |
 <br>
 
 ### 서비스 workflow
