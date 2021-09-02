@@ -1,5 +1,5 @@
 # MEARI
-<img src="C:\Users\82108\OneDrive\바탕 화면\LOGO.jpg" width="50%" height="50%"/>
+<p align="center"><img src="C:\Users\82108\OneDrive\바탕 화면\LOGO.jpg" width="50%" height="50%"></p>
 
 
 ```
