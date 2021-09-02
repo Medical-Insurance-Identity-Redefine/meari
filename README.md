@@ -1,5 +1,7 @@
 # MEARI
-<img alt="스크린샷 2021-01-03 오후 11 04 58" src="https://user-images.githubusercontent.com/72001692/103480681-f1edb080-4e18-11eb-8b65-3cc8350b0165.png" width="150" align="left">
+
+#여기에 우리 로고 이미지 넣어줘
+
 
 ```
 🍎 2021 데이터청년캠퍼스 <빅리더 아카데미> 🍎
@@ -48,8 +50,7 @@ AI를 활용한 비급여 진료비 자가점검 서비스😊
 
 ### 서비스 workflow
 
-
-![KakaoTalk_Photo_2021-01-15-22-54-18](https://user-images.githubusercontent.com/22820675/104735258-bfcb3f80-5784-11eb-99d9-66e6113e972a.png)
+#여기에 이미지 넣어줘
 
 
 
