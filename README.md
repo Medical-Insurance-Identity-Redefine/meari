@@ -1,5 +1,5 @@
 # MEARI
-![image](https://user-images.githubusercontent.com/87626172/131874388-81ee9d0c-afdd-4422-a6be-cfd7a2457c94.png)
+![image](https://user-images.githubusercontent.com/87626172/131874767-7dd243a1-935c-468c-8e58-889ad69d9668.png)
 
 ```
 🍎 2021 데이터청년캠퍼스 <빅리더 아카데미> 🍎
