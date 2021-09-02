@@ -213,6 +213,13 @@ func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMe
             self.submitButton.isHidden = false
         }
 ~~~
+
+### Jupyter Notebook 실행시 유의 사항
+1) run this folder를 그대로 업로드 -> Meari_final_code.ipynb 코드 실행 -> cell -> run all 실행    
+   
+2) pip install ~  or import ~ 오류 해결 방법 : package version check -> version에 맞는 package or library download   
+   
+   
 ### Team_MEARI
 
 | <IMG src="https://github.com/yooseonghyeon.png?size=100" width="150"> | <IMG src="https://github.com/JubyKim.png?size=100" width="150"> | <IMG src="https://github.com/ilovetayy.png?size=100" width="150">| <IMG src="https://github.com/Giggle1998.png?size=100" width="150">
