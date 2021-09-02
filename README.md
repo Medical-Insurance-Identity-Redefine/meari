@@ -87,41 +87,12 @@ AI를 활용한 비급여 진료비 자가점검 서비스😊
 
 2. OpenCV + OCR
 
-   ```swift
-   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-   		let cell: MessageDetailTableViewCell = tableView.dequeueCell(forIndexPath: indexPath)
-   		if self.userOrOwner == 0 {
-   			if self.status[indexPath.row] == 0 {
-   				cell.titleLabel.text = "문의사항이 등록되었어요!"
-   				cell.contextLabel.attributedText = self.makeAttributed(
-   					context: "아래의 버튼을 눌러\n약속시간을 정해보세요."
-   				)
-   				cell.transitionButton.addTarget(self,
-   																				action: #selector(didTapConfirmButton(_:)),
-   																				for: .touchUpInside
-   				)
-   				cell.transitionButton.setTitle("약속 확정하기", for: .normal)
-   			}
-   			else if self.status[indexPath.row] == 1 {
-   				cell.titleLabel.text = "약속이 확정되었어요!"
-   				var confirmedPromise = "\(self.confirmedPromiseOption)예정이에요\n 캘린더에서 일정을 확인해보세요."
-   				cell.contextLabel.attributedText = self.makeAttributed(context: confirmedPromise)				
-   				cell.transitionButton.addTarget(self,
-   																				action: #selector(didTapCalendarButton(_:)),
-   																				for: .touchUpInside)
-   				cell.transitionButton.setTitle("캘린더 보기", for: .normal)
-   			}
-   			else if self.status[indexPath.row] == 2 {
-   				cell.titleLabel.text = "약속 수정 요청을 보냈어요!"
-   				cell.contextLabel.attributedText = self.makeAttributed(
-   					context: "앞으로도 하우징과 함께\n자취생과 소통해보세요!"
-   				)
-   				cell.transitionButton.snp.makeConstraints {
-   					$0.height.equalTo(0)
-   				}
-   			}
-   			...
-   ```
+
+3. NLP
+
+~~~python
+morphed_data_each = rhinoMorph.onlyMorph_list(rn, data_each, pos =['NNG', 'NNP','SL'], eomi = True)
+~~~
 
 ### 팀원 역할 및 소개
 
