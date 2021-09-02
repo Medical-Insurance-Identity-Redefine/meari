@@ -1,7 +1,6 @@
 # MEARI
 
-#여기에 우리 로고 이미지 넣어줘
-
+<img alt="스크린샷 2021-01-03 오후 11 04 58" src="https://user-images.githubusercontent.com/72001692/103480681-f1edb080-4e18-11eb-8b65-3cc8350b0165.png" width="150" align="left">
 
 ```
 🍎 2021 데이터청년캠퍼스 <빅리더 아카데미> 🍎
@@ -130,8 +129,10 @@ AI를 활용한 비급여 진료비 자가점검 서비스😊
    ```
 
 ### 팀원 역할 및 소개
-
-| <IMG src="https://https://github.com/yooseonghyeon.png?size=100" width="150"> | <IMG src="https://github.com/JubyKim.png?size=100" width="150"> | <IMG src="https://github.com/fluffyword.png?size=100" width="150">| <IMG src="https://https://github.com/Giggle1998.png?size=100" width="150"> |
+   
+   
+| <IMG src="https://github.com/5anniversary.png?size=100" width="150"> | <IMG src="https://github.com/hansolnoh95.png?size=100" width="150"> | <IMG src="https://github.com/8ugustjaden.png?size=100" width="150"> | <IMG src="https://github.com/JubyKim.png?size=100" width="150"> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|                            유성현                            |                            김주은                            |                            이규영                            |                            이기표                            |
+|                            오준현                            |                            노한솔                            |                            곽민제                            |                            김주은                            |
 
+   
