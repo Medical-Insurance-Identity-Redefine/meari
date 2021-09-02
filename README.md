@@ -126,7 +126,7 @@ AI를 활용한 비급여 진료비 자가점검 서비스😊
 
 ### 팀원 역할 및 소개
 
-| <IMG src="https://https://github.com/yooseonghyeon.png?size=100" width="150"> | <IMG src="https://github.com/JubyKim.png?size=100" width="150"> | <IMG src="https://github.com/fluffyword.png?size=100" width="150">| <IMG src="https://https://github.com/Giggle1998.png?size=100" width="150"> |
+| <IMG src="https://github.com/yooseonghyeon.png?size=100" width="150"> | <IMG src="https://github.com/JubyKim.png?size=100" width="150"> | <IMG src="https://github.com/ilovetayy.png?size=100" width="150">| <IMG src="https://github.com/Giggle1998.png?size=100" width="150"> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                            유성현                            |                            김주은                            |                            이규영                            |                            이기표                            |
 
