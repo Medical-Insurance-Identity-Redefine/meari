@@ -49,10 +49,6 @@ AI를 활용한 비급여 진료비 자가점검 서비스😊
 ![image](https://user-images.githubusercontent.com/87626172/131874143-de4d3444-1cca-4d11-9b9a-94a83ba880e0.png)
 
 
-![KakaoTalk_Photo_2021-01-15-22-54-18](https://user-images.githubusercontent.com/22820675/104735258-bfcb3f80-5784-11eb-99d9-66e6113e972a.png)
-
-
-
 ### 기능 개발여부/담당자
 
 |    기술     |        기능        | 담당자 | 구현 여부 |
