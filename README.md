@@ -1,6 +1,5 @@
 # MEARI
-
-<img alt="스크린샷 2021-01-03 오후 11 04 58" src="https://user-images.githubusercontent.com/72001692/103480681-f1edb080-4e18-11eb-8b65-3cc8350b0165.png" width="150" align="left">
+<img alt=![image](https://user-images.githubusercontent.com/87626172/131874388-81ee9d0c-afdd-4422-a6be-cfd7a2457c94.png) 2021-01-03 오후 11 04 58" src="https://user-images.githubusercontent.com/72001692/103480681-f1edb080-4e18-11eb-8b65-3cc8350b0165.png" width="150" align="left">
 
 ```
 🍎 2021 데이터청년캠퍼스 <빅리더 아카데미> 🍎
@@ -48,8 +47,10 @@ AI를 활용한 비급여 진료비 자가점검 서비스😊
 <br>
 
 ### 서비스 workflow
+![image](https://user-images.githubusercontent.com/87626172/131874143-de4d3444-1cca-4d11-9b9a-94a83ba880e0.png)
 
-#여기에 이미지 넣어줘
+
+![KakaoTalk_Photo_2021-01-15-22-54-18](https://user-images.githubusercontent.com/22820675/104735258-bfcb3f80-5784-11eb-99d9-66e6113e972a.png)
 
 
 
@@ -128,8 +129,9 @@ AI를 활용한 비급여 진료비 자가점검 서비스😊
    			...
    ```
 
-### 팀원
-   
-<IMG src="https://github.com/yooseonghyeon.png?size=100" width="150"> |  <IMG src="https://github.com/JubyKim.png?size=100" width="150"> |<IMG src="https://github.com/ilovetayy.png?size=100" width="150"> |<IMG src="https://github.com/Giggle1998.png?size=100" width="150"> 
------------- | -------------| -------------| -------------
-유성현 | 김주은 | 이규영 | 이기표
+### 팀원 역할 및 소개
+
+| <IMG src="https://https://github.com/yooseonghyeon.png?size=100" width="150"> | <IMG src="https://github.com/JubyKim.png?size=100" width="150"> | <IMG src="https://github.com/fluffyword.png?size=100" width="150">| <IMG src="https://https://github.com/Giggle1998.png?size=100" width="150"> |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|                            유성현                            |                            김주은                            |                            이규영                            |                            이기표                            |
+
