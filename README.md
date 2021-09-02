@@ -1,7 +1,6 @@
 # MEARI
 
-<img src= ![image](https://user-images.githubusercontent.com/87626172/131877946-3ad59fb4-c608-45d7-b744-97f6dd0d85fd.png) width="150", align = "left"></p>
-
+![image](https://user-images.githubusercontent.com/87626172/131877946-3ad59fb4-c608-45d7-b744-97f6dd0d85fd.png){: width="120"}
 ```
 🍎 2021 데이터청년캠퍼스 <빅리더 아카데미> 🍎
 
