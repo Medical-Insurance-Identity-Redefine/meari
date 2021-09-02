@@ -188,6 +188,31 @@ study = optuna.create_study(
 
 study.optimize(objective, n_trials=100)
 ~~~
+
+
+5. Application
+~~~swift
+func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+            if let pickedImage = info[.originalImage] as? UIImage {
+                    imageView.contentMode = .scaleAspectFit
+                    imageView.image = pickedImage
+            }
+            dismiss(animated: true, completion: nil)
+            var sv = UIView()
+            sv = UIViewController.displaySpinner(onView: self.view)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+                UIViewController.removeSpinner(spinner: sv)
+                let alert = UIAlertController(title: "비급여 진료비 확인 서비스 대상입니다.", message: """
+                    92%의 확률로 환불이 가능한 항목입니다.
+                    해당 서비스를 신청하시려면 서류제출하기 버튼을 눌러주세요.
+                    """, preferredStyle: .alert)
+                let defaultAction = UIAlertAction(title: "OK", style: .destructive, handler : nil)
+                alert.addAction(defaultAction)
+                self.present(alert, animated: true, completion: nil)
+            }
+            self.submitButton.isHidden = false
+        }
+~~~
 ### Team_MEARI
 
 | <IMG src="https://github.com/yooseonghyeon.png?size=100" width="150"> | <IMG src="https://github.com/JubyKim.png?size=100" width="150"> | <IMG src="https://github.com/ilovetayy.png?size=100" width="150">| <IMG src="https://github.com/Giggle1998.png?size=100" width="150">
