@@ -1,4 +1,5 @@
 # MEARI
+<img src="C:/Users/82108/OneDrive/바탕 화면/LOGO.jpg" width="50%" height="50%"/>
 ![image](https://user-images.githubusercontent.com/87626172/131876353-14cc4f5b-0488-4435-8304-4d2b6ab18abd.png){: width="40%" height="40%"}{: .center}
 ```
 🍎 2021 데이터청년캠퍼스 <빅리더 아카데미> 🍎
