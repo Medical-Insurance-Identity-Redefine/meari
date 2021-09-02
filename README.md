@@ -1,5 +1,4 @@
 # MEARI
-<p align="center"><img src="C:\Users\82108\OneDrive\바탕 화면\LOGO.jpg" width="50%" height="50%"></p>
 ![image](https://user-images.githubusercontent.com/87626172/131877946-3ad59fb4-c608-45d7-b744-97f6dd0d85fd.png)
 
 
