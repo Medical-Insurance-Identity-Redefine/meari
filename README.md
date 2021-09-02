@@ -24,6 +24,8 @@ AI를 활용한 비급여 진료비 자가점검 서비스😊
 
 - 핵심기능 구현 방법
 
+- Jupyter Notebook 실행시 유의 사항
+
 - Team_Meari
 
 
