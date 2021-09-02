@@ -1,5 +1,5 @@
 # MEARI
-![image](https://user-images.githubusercontent.com/87626172/131874767-7dd243a1-935c-468c-8e58-889ad69d9668.png)
+<img src = "![image](https://user-images.githubusercontent.com/87626172/131874767-7dd243a1-935c-468c-8e58-889ad69d9668.png", width = "40px", height = "40px">{:.aligncenter}
 
 ```
 🍎 2021 데이터청년캠퍼스 <빅리더 아카데미> 🍎
