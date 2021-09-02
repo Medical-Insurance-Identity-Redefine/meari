@@ -61,77 +61,133 @@ AI를 활용한 비급여 진료비 자가점검 서비스😊
 
 
 ### 파트별 중요 코드
-1. 데이터전처리
+1. EDA
 
-   ~~~python
-   // 캘린더 정보 저장을 위한 변수
-   var calendarDictionary: [String : [FSCalendarModel]] = [:]
-   
-   guard let promise: [FSCalendarModel] = calendarDictionary[day] else { return UICollectionViewCell() }
-   if promise[indexPath.row].isNotice == 0 {
-     let cell: CalendarCollectionViewCell = collectionView.dequeueCell(forIndexPath: indexPath)
-   	cell.calendar = promise[indexPath.row]
-   	cell.fetchCalendar()
-   	cell.fetchCategory()
-   	cell.fetchTime()
-   	return cell
-   } else {
-   	let cell: NoticeCollectionViewCell = collectionView.dequeueCell(forIndexPath: indexPath)
-   	cell.calendar = promise[indexPath.row]
-   	cell.fetchCalendar()
-   	cell.fetchTime()
-   	return cell
+~~~python
+le = preprocessing.LabelEncoder()
+df_encoded = df
+
+for i in df_encoded.columns[df_encoded.dtypes == 'object']:
+    df_encoded[i] = le.fit_transform(list(df_encoded[i]))
+
+def crammersV(var1, var2):
+    crosstab = np.array(pd.crosstab(var1, var2, rownames=None, colnames=None))
+    stat = chi2_contingency(crosstab)[0]
+    obs = np.sum(crosstab)
+    mini = min(crosstab.shape) - 1
+    return (stat/(obs*mini))
+
+rows = []
+for var1 in df_encoded:
+    col = []
+    for var2 in df_encoded:
+        crammers = crammersV(df_encoded[var1], df_encoded[var2])
+        col.append(round(crammers,2))
+    rows.append(col)
+
+crammers_res = np.array(rows)
+df_new = pd.DataFrame(crammers_res, columns=df_encoded.columns, index=df_encoded.columns)
+mask = np.zeros_like(df_new, dtype=np.bool)
+mask[np.triu_indices_from(mask)] = True
+
+with sns.axes_style('white'):
+    plt.rc('font', family='Malgun Gothic')
+    ax = sns.heatmap(df_new, mask=mask, vmin=0., vmax=1., square=True, annot=True, cmap='YlGnBu')
+plt.show()
    }
    
-   ~~~
+~~~
 
 2. OpenCV + OCR
 
-   ```swift
-   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-   		let cell: MessageDetailTableViewCell = tableView.dequeueCell(forIndexPath: indexPath)
-   		if self.userOrOwner == 0 {
-   			if self.status[indexPath.row] == 0 {
-   				cell.titleLabel.text = "문의사항이 등록되었어요!"
-   				cell.contextLabel.attributedText = self.makeAttributed(
-   					context: "아래의 버튼을 눌러\n약속시간을 정해보세요."
-   				)
-   				cell.transitionButton.addTarget(self,
-   																				action: #selector(didTapConfirmButton(_:)),
-   																				for: .touchUpInside
-   				)
-   				cell.transitionButton.setTitle("약속 확정하기", for: .normal)
-   			}
-   			else if self.status[indexPath.row] == 1 {
-   				cell.titleLabel.text = "약속이 확정되었어요!"
-   				var confirmedPromise = "\(self.confirmedPromiseOption)예정이에요\n 캘린더에서 일정을 확인해보세요."
-   				cell.contextLabel.attributedText = self.makeAttributed(context: confirmedPromise)				
-   				cell.transitionButton.addTarget(self,
-   																				action: #selector(didTapCalendarButton(_:)),
-   																				for: .touchUpInside)
-   				cell.transitionButton.setTitle("캘린더 보기", for: .normal)
-   			}
-   			else if self.status[indexPath.row] == 2 {
-   				cell.titleLabel.text = "약속 수정 요청을 보냈어요!"
-   				cell.contextLabel.attributedText = self.makeAttributed(
-   					context: "앞으로도 하우징과 함께\n자취생과 소통해보세요!"
-   				)
-   				cell.transitionButton.snp.makeConstraints {
-   					$0.height.equalTo(0)
-   				}
-   			}
-   			...
-   ```
+~~~python
+# testImage 기준, 요양기호정보cell대비 환자등록번호 cell의 크기는 0.42었음.
+# 사용자가 사진을 찍는 방향이나 각도에 따라 달라질 수 있으니 적당한 범위를 정해준다.
+for index , item in enumerate(areaList):
+    if 0.3 < pkArea / item < 0.55:
+        x = xList[index]
+        y = yList[index]
+        h = hList[index]
+        w = wList[index]
+
+crop_img = image[y:y+h, x:x+w]
+
+#요양정보 cell의 칼럼.
+cv2.imwrite('hospCode.jpg',crop_img)
+hospCode=cv2.imread('hospCode.jpg')
+~~~
+
+3. NLP
+
+~~~python
+morphed_data_each = rhinoMorph.onlyMorph_list(rn, data_each, pos =['NNG', 'NNP','SL'], eomi = True)
+~~~
 
 
-### Jupyter Notebook 실행설명
-1) run this folder를 그대로 업로드 -> Meari_final_code.ipynb 코드 실행 -> cell -> run all 실행   
-   
-2) pip install ~  or import ~ 오류 해결 방법   
-package version check -> version에 맞는 package or library download   
+4. Machine Learning
+~~~python
+X = df.drop(['환불여부'], axis=1)
+y = df['환불여부']
 
+def objective(trial):
+    # train과 test split
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42)
 
+    # oversampling하는 경우, train data에 대해서 oversampling하기 
+    # fit할 때 X_train, y_train 대신 X_resampled, y_resampled로 바꿀 것 
+    # X_resampled, y_resampled = sm.fit_resample(X_train, y_train)
 
+    # hyperparameter value 후보군 설정
+    param = {
+        "objective": "binary",
+        "metric": "binary_logloss",
+        "verbosity": -1,
+        "boosting_type": "gbdt",
+        "lambda_l1": trial.suggest_float("lambda_l1", 1e-8, 10.0, log=True),
+        "lambda_l2": trial.suggest_float("lambda_l2", 1e-8, 10.0, log=True),
+        "num_leaves": trial.suggest_int("num_leaves", 2, 256),
+        "feature_fraction": trial.suggest_float("feature_fraction", 0.4, 1.0),
+        "bagging_fraction": trial.suggest_float("bagging_fraction", 0.4, 1.0),
+        "bagging_freq": trial.suggest_int("bagging_freq", 1, 7),
+        "min_child_samples": trial.suggest_int("min_child_samples", 5, 100),
+        "learning_rate": trial.suggest_float("learning_rate", 1e-8, 1.0, log=True),
+        "n_estimators": trial.suggest_int("n_estimators", 1, 5000)
+    }
+
+    model = lgb.LGBMClassifier(**param, boost_from_average = False)
+    model.fit(X_train, y_train, eval_set=[(X_test, y_test)], early_stopping_rounds=200, verbose=False)
+
+    # best threshold를 계산하기 위한 과정 
+    preds = model.predict_proba(X_test)
+    p = preds[:, 1]
+    precision, recall, thresholds = precision_recall_curve(y_test, p)
+
+    numerator = 2 * precision * recall
+    denom = recall + precision
+    fl_scores = np.divide(numerator, denom, out=np.zeros_like(denom), where=(denom!=0))
+    max_f1 = np.max(fl_scores)
+    max_f1_thresh = thresholds[np.argmax(fl_scores)]
+
+    y_prob_pred = (model.predict_proba(X_test)[:, 1] >= max_f1_thresh).astype(bool)
+
+    print("best threshold : " + str(max_f1_thresh))
+
+    print(classification_report(y_test, y_prob_pred))
+    print(confusion_matrix(y_test, y_prob_pred))
+    print(accuracy_score(y_test, y_prob_pred))
+    print(f1_score(y_test, y_prob_pred))
+    print(roc_auc_score(y_test, y_prob_pred))
+
+    return max_f1
+
+# 하이퍼파라미터 최적화
+# objective 함수 100번 실행
+# objective 함수의 return value인 f1 score가 maximize되도록 하는 방향으로 
+study = optuna.create_study(
+    pruner = optuna.pruners.MedianPruner(n_startup_trials=5), direction='maximize')
+
+study.optimize(objective, n_trials=100)
+~~~
 ### 팀원 역할 및 소개
 
 | <IMG src="https://github.com/yooseonghyeon.png?size=100" width="150"> | <IMG src="https://github.com/JubyKim.png?size=100" width="150"> | <IMG src="https://github.com/ilovetayy.png?size=100" width="150">| <IMG src="https://github.com/Giggle1998.png?size=100" width="150">
