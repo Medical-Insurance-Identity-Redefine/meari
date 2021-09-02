@@ -188,7 +188,7 @@ study = optuna.create_study(
 
 study.optimize(objective, n_trials=100)
 ~~~
-### 팀원 역할 및 소개
+### Team_MEARI
 
 | <IMG src="https://github.com/yooseonghyeon.png?size=100" width="150"> | <IMG src="https://github.com/JubyKim.png?size=100" width="150"> | <IMG src="https://github.com/ilovetayy.png?size=100" width="150">| <IMG src="https://github.com/Giggle1998.png?size=100" width="150">
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
