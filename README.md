@@ -218,11 +218,84 @@ func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMe
         }
 ~~~
 
+
+### 1. 개발환경 및 패키지 설치 관련
+   
+	건강보험심사평가원 내부의 폐쇄망 PC에서 데이터 전처리와 머신러닝을 진행   
+	OS는 Windows 64-bit   
+	Pycharm으로 프로그래밍   
+	python 3.8.8   
+	패키지는 whl파일로 직접 설치 (package폴더 참고)   
+   
+   
+### 2. 전처리 및 EDA
+   
+	데이터 전처리 및 EDA 시각화 코드 : code+visualization\preprocessing+EDA\preprocessing+visualization.py   
+	데이터 전처리 과정별로 캡쳐한 결과 : code+visualization\preprocessing+EDA\preprocessing procedure capture   
+	EDA에 대한 결과 : code+visualization\preprocessing+EDA\EDA   
+	건강보험심사평가원에서 받은 진료비확인신청 데이터에 대한 raw data와 추가로 요청한 '요양종별코드-요양기호' 텍스트 파일은 더미를 만들지 못함   
+	전처리 최종 결과에 대한 더미(즉, 머신러닝의 input data)는 임의로 제작(realLastDF.csv)   
+   
+   
+
+### 3. 머신러닝
+   
+	code+visualization\ML에 5개의 머신러닝 관련 python 파일과 머신러닝 코드의 input file인 realLastDF.csv가 존재   
+	1) xgboost, catboost, random forest, lightgbm을 학습시킨 파일   
+	2) lightgbm 성능 고도화 파일    
+	3) 파이프라인에 필요한 model과 label encoder 객체를 저장하는 파일   
+   
+	머신러닝 실행 결과에 대한 자료가 code+visualization\ML_results에 텍스트파일과 이미지파일로 존재   
+   
+   
+   
+### 4. 파이프라인 관련
+   
+	code+visualization\pipeline   
+	1) 라벨인코더 객체 파일 9개   
+	2) lightgbm model save 파일 1개   
+   
+      
+      
+### 5. run this folder 파일 설명
+   
+	code+visualization\run this folder   
+	run this folder 전체를 주피터노트북에 올려서 Meari_final_code.ipynb 실행   
+   
+	5-1 최종 코드 관련   
+	1) Make_dictionary : 사전 구축 코드 파일   
+	2) Meari_final_code : OCR, NLP, ML 사용 코드 파일	   
+	   
+	5-2 OCR 관련   
+	1) doclmage2.jpg : input file ( 진료비 세부내역서 )   
+	2) hospCode.jpg ( 코드 결과물, 재생성 )   
+	3) patientPK.jpg ( 코드 결과물, 재생성 )   
+	4) croppedImage.jpg ( 코드 결과물, 재생성 )   
+	5) data : nanonets 송신결과 파일 ( 재생성 )   
+	6) meari-322801-754104bbf5e4a : google API Key   
+	7) patient : 환자 정보에 대한 table detection 코드 결과물   
+	8) diagnosis : 진료 받은 사항에 대한 table detection 코드 결과물   
+	   
+	5-3 사전 관련   
+	1) stem_MethodDeleted.txt : rhino에 기본으로 탑재 된 명칭 사전 -> 수정 / anaconda3 -> Lib -> site-packages -> rhinoMorph -> resource 파일에 stem_MethodDeleted.txt 교체   
+	2) insurance.txt : 급여 사전   
+	3) insurance_non.txt : 비급여 사전   
+	4) Dict_list.csv : 급여 명칭 csv 파일   
+	5) Dict_list_non.csv : 비급여 명칭 csv 파일   
+	   
+	5-4 머신러닝 관련 : Meari_final_code 주석 참고   
+       
+          
+             
+             
+             
+
 ### Jupyter Notebook 실행시 유의 사항
 1) run this folder를 그대로 업로드 -> Meari_final_code.ipynb 코드 실행 -> cell -> run all 실행    
    
 2) pip install ~  or import ~ 오류 해결 방법 : package version check -> version에 맞는 package or library download   
 
+   
 ### Python Version 참조
 absl-py                            0.13.0   
 addict                             2.4.0   
@@ -542,9 +615,9 @@ zope.event                         4.5.0
 zope.interface                     5.3.0             
 
 
-   
      
-
+     
+      
    
    
 ### Team_MEARI
