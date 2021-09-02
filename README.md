@@ -26,6 +26,8 @@ AI를 활용한 비급여 진료비 자가점검 서비스😊
 
 - Jupyter Notebook 실행시 유의 사항
 
+- Python Version 참조
+
 - Team_Meari
 
 
@@ -222,8 +224,6 @@ func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMe
 2) pip install ~  or import ~ 오류 해결 방법 : package version check -> version에 맞는 package or library download   
 
 ### Python Version 참조
-Package                            Version
----------------------------------- -------------------
 absl-py                            0.13.0   
 addict                             2.4.0   
 alabaster                          0.7.12   
