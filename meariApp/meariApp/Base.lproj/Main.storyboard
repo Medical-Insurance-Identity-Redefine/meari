@@ -554,7 +554,7 @@
                                                     </constraints>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="알코올성 위염" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DjG-zL-Ogc">
-                                                    <rect key="frame" x="195" y="14" width="102.5" height="24"/>
+                                                    <rect key="frame" x="195" y="14" width="98.5" height="24"/>
                                                     <fontDescription key="fontDescription" name="KoreanPGD-M" family="KoreanPGDM" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -597,7 +597,7 @@
                                                     </constraints>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="상세불명의 만성위염" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ur9-Qk-izn">
-                                                    <rect key="frame" x="195" y="14" width="150.5" height="24"/>
+                                                    <rect key="frame" x="195" y="14" width="145.5" height="24"/>
                                                     <fontDescription key="fontDescription" name="KoreanPGD-M" family="KoreanPGDM" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>

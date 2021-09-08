@@ -1,0 +1,13 @@
+precision    recall  f1-score   support
+
+           0       0.94      0.95      0.94     19504
+           1       0.77      0.74      0.75      4841
+
+    accuracy                           0.90     24345
+   macro avg       0.85      0.84      0.85     24345
+weighted avg       0.90      0.90      0.90     24345
+
+[[18446  1058]
+ [ 1272  3569]]
+0.753907900295733
+[I 2021-08-25 13:50:30,370] Trial 76 finished with value: 0.753907900295733 and                                                                                                                         parameters: {'objective': 'CrossEntropy', 'colsample_bylevel': 0.099831847713954                                                                                                                        66, 'depth': 16, 'boosting_type': 'Plain', 'bootstrap_type': 'MVS', 'learning_ra                                                                                                                        te': 0.3323991006727756}. Best is trial 76 with value: 0.753907900295733.

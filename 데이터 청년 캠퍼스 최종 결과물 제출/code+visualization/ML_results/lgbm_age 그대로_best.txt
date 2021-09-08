@@ -1,0 +1,16 @@
+precision    recall  f1-score   support
+
+           0       0.94      0.96      0.95     19382
+           1       0.83      0.77      0.80      4963
+
+    accuracy                           0.92     24345
+   macro avg       0.89      0.87      0.88     24345
+weighted avg       0.92      0.92      0.92     24345
+
+[[18623   759]
+ [ 1128  3835]]
+0.9224892174984597
+0.8025531024380035
+0.8667790343204871
+[I 2021-08-26 15:52:35,350] Trial 67 finished with value: 0.8025531024380035 and parameters: {'lambda_l1': 0.0003256781965758981, 'lambda_l2': 2.0427021562150173e-06, 'num_leaves': 155, 'feature_fraction': 0.6966771835234, 'bagging_fraction': 0.8533412069913718, 'bagging_freq': 1, 'min_child_samples': 9, 'learning_rate': 0.023528432851568266, 'n_estimators': 2428}. Best is trial 67 with value: 0.8025531024380035.
+[LightGBM] [Warning] feature_fraction is set=0.7080897645521502, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7080897645521502

@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E27D42E285974E23F84140B /* Pods_meariApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4831877BF144AAAAC4919AD5 /* Pods_meariApp.framework */; };
+		30A9393426E0ECDD00E7A1F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9393326E0ECDD00E7A1F0 /* ViewController.swift */; };
+		373B40A326D8EEB6006A461D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B40A226D8EEB6006A461D /* SearchViewController.swift */; };
+		373B40A526D8F19F006A461D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B40A426D8F19F006A461D /* TableViewCell.swift */; };
+		378EEE7226D5DE6B00C98C92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378EEE7126D5DE6B00C98C92 /* AppDelegate.swift */; };
+		378EEE7426D5DE6B00C98C92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378EEE7326D5DE6B00C98C92 /* SceneDelegate.swift */; };
+		378EEE7926D5DE6B00C98C92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378EEE7726D5DE6B00C98C92 /* Main.storyboard */; };
+		378EEE7E26D5DE6F00C98C92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378EEE7C26D5DE6F00C98C92 /* LaunchScreen.storyboard */; };
+		378EEE8A26D5E05700C98C92 /* ExtensionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378EEE8526D5E05500C98C92 /* ExtensionVC.swift */; };
+		378EEE8B26D5E05700C98C92 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378EEE8626D5E05600C98C92 /* FirstViewController.swift */; };
+		378EEE8C26D5E05700C98C92 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378EEE8726D5E05600C98C92 /* InputViewController.swift */; };
+		378EEE8E26D5E05700C98C92 /* lastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378EEE8926D5E05600C98C92 /* lastViewController.swift */; };
+		378EEE8F26D5E2C900C98C92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378EEE7A26D5DE6F00C98C92 /* Assets.xcassets */; };
+		378EEE9126D5E30A00C98C92 /* a펜고딕M.otf in Resources */ = {isa = PBXBuildFile; fileRef = 378EEE9026D5E30A00C98C92 /* a펜고딕M.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E3D283EAF4DFBBD0575FBAA /* Pods-meariApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meariApp.debug.xcconfig"; path = "Target Support Files/Pods-meariApp/Pods-meariApp.debug.xcconfig"; sourceTree = "<group>"; };
+		30A9393326E0ECDD00E7A1F0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		373B40A226D8EEB6006A461D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		373B40A426D8F19F006A461D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		378EEE6E26D5DE6B00C98C92 /* meariApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meariApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378EEE7126D5DE6B00C98C92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		378EEE7326D5DE6B00C98C92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		378EEE7826D5DE6B00C98C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		378EEE7A26D5DE6F00C98C92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		378EEE7D26D5DE6F00C98C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		378EEE7F26D5DE6F00C98C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378EEE8526D5E05500C98C92 /* ExtensionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionVC.swift; sourceTree = "<group>"; };
+		378EEE8626D5E05600C98C92 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		378EEE8726D5E05600C98C92 /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		378EEE8926D5E05600C98C92 /* lastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lastViewController.swift; sourceTree = "<group>"; };
+		378EEE9026D5E30A00C98C92 /* a펜고딕M.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "a펜고딕M.otf"; path = "Assets.xcassets/a펜고딕M.otf"; sourceTree = "<group>"; };
+		4831877BF144AAAAC4919AD5 /* Pods_meariApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meariApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E874B396C62905C1F5B0F92A /* Pods-meariApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meariApp.release.xcconfig"; path = "Target Support Files/Pods-meariApp/Pods-meariApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378EEE6B26D5DE6B00C98C92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E27D42E285974E23F84140B /* Pods_meariApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378EEE6526D5DE6B00C98C92 = {
+			isa = PBXGroup;
+			children = (
+				378EEE7026D5DE6B00C98C92 /* meariApp */,
+				378EEE6F26D5DE6B00C98C92 /* Products */,
+				76220C70BFE4C035614DF3D5 /* Pods */,
+				5BDAD4A79CC9227356334BAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		378EEE6F26D5DE6B00C98C92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378EEE6E26D5DE6B00C98C92 /* meariApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		378EEE7026D5DE6B00C98C92 /* meariApp */ = {
+			isa = PBXGroup;
+			children = (
+				30A9393326E0ECDD00E7A1F0 /* ViewController.swift */,
+				378EEE8526D5E05500C98C92 /* ExtensionVC.swift */,
+				378EEE8626D5E05600C98C92 /* FirstViewController.swift */,
+				378EEE8926D5E05600C98C92 /* lastViewController.swift */,
+				378EEE7126D5DE6B00C98C92 /* AppDelegate.swift */,
+				378EEE7326D5DE6B00C98C92 /* SceneDelegate.swift */,
+				378EEE7726D5DE6B00C98C92 /* Main.storyboard */,
+				378EEE8726D5E05600C98C92 /* InputViewController.swift */,
+				373B40A226D8EEB6006A461D /* SearchViewController.swift */,
+				373B40A426D8F19F006A461D /* TableViewCell.swift */,
+				378EEE7A26D5DE6F00C98C92 /* Assets.xcassets */,
+				378EEE7C26D5DE6F00C98C92 /* LaunchScreen.storyboard */,
+				378EEE7F26D5DE6F00C98C92 /* Info.plist */,
+				378EEE9026D5E30A00C98C92 /* a펜고딕M.otf */,
+			);
+			path = meariApp;
+			sourceTree = "<group>";
+		};
+		5BDAD4A79CC9227356334BAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4831877BF144AAAAC4919AD5 /* Pods_meariApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76220C70BFE4C035614DF3D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E3D283EAF4DFBBD0575FBAA /* Pods-meariApp.debug.xcconfig */,
+				E874B396C62905C1F5B0F92A /* Pods-meariApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		378EEE6D26D5DE6B00C98C92 /* meariApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378EEE8226D5DE6F00C98C92 /* Build configuration list for PBXNativeTarget "meariApp" */;
+			buildPhases = (
+				D6810E470F39D6261E1F2E4A /* [CP] Check Pods Manifest.lock */,
+				378EEE6A26D5DE6B00C98C92 /* Sources */,
+				378EEE6B26D5DE6B00C98C92 /* Frameworks */,
+				378EEE6C26D5DE6B00C98C92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meariApp;
+			productName = meariApp;
+			productReference = 378EEE6E26D5DE6B00C98C92 /* meariApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		378EEE6626D5DE6B00C98C92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					378EEE6D26D5DE6B00C98C92 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 378EEE6926D5DE6B00C98C92 /* Build configuration list for PBXProject "meariApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 378EEE6526D5DE6B00C98C92;
+			productRefGroup = 378EEE6F26D5DE6B00C98C92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				378EEE6D26D5DE6B00C98C92 /* meariApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		378EEE6C26D5DE6B00C98C92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378EEE7E26D5DE6F00C98C92 /* LaunchScreen.storyboard in Resources */,
+				378EEE8F26D5E2C900C98C92 /* Assets.xcassets in Resources */,
+				378EEE9126D5E30A00C98C92 /* a펜고딕M.otf in Resources */,
+				378EEE7926D5DE6B00C98C92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D6810E470F39D6261E1F2E4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meariApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		378EEE6A26D5DE6B00C98C92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378EEE8B26D5E05700C98C92 /* FirstViewController.swift in Sources */,
+				378EEE7226D5DE6B00C98C92 /* AppDelegate.swift in Sources */,
+				373B40A326D8EEB6006A461D /* SearchViewController.swift in Sources */,
+				30A9393426E0ECDD00E7A1F0 /* ViewController.swift in Sources */,
+				373B40A526D8F19F006A461D /* TableViewCell.swift in Sources */,
+				378EEE8C26D5E05700C98C92 /* InputViewController.swift in Sources */,
+				378EEE8A26D5E05700C98C92 /* ExtensionVC.swift in Sources */,
+				378EEE8E26D5E05700C98C92 /* lastViewController.swift in Sources */,
+				378EEE7426D5DE6B00C98C92 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		378EEE7726D5DE6B00C98C92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378EEE7826D5DE6B00C98C92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		378EEE7C26D5DE6F00C98C92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378EEE7D26D5DE6F00C98C92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		378EEE8026D5DE6F00C98C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		378EEE8126D5DE6F00C98C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		378EEE8326D5DE6F00C98C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3D283EAF4DFBBD0575FBAA /* Pods-meariApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PD739GKFH2;
+				INFOPLIST_FILE = meariApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JubyKim.meariApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		378EEE8426D5DE6F00C98C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E874B396C62905C1F5B0F92A /* Pods-meariApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PD739GKFH2;
+				INFOPLIST_FILE = meariApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JubyKim.meariApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378EEE6926D5DE6B00C98C92 /* Build configuration list for PBXProject "meariApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378EEE8026D5DE6F00C98C92 /* Debug */,
+				378EEE8126D5DE6F00C98C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378EEE8226D5DE6F00C98C92 /* Build configuration list for PBXNativeTarget "meariApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378EEE8326D5DE6F00C98C92 /* Debug */,
+				378EEE8426D5DE6F00C98C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 378EEE6626D5DE6B00C98C92 /* Project object */;
+}

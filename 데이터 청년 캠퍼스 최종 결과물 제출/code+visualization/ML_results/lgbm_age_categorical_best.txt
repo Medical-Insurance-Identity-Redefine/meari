@@ -1,0 +1,15 @@
+ precision    recall  f1-score   support
+
+           0       0.94      0.96      0.95     19382
+           1       0.83      0.78      0.80      4963
+
+    accuracy                           0.92     24345
+   macro avg       0.88      0.87      0.88     24345
+weighted avg       0.92      0.92      0.92     24345
+
+[[18571   811]
+ [ 1114  3849]]
+0.9209283220373793
+0.7999584329211264
+0.8668480207253624
+[I 2021-08-26 16:26:52,134] Trial 52 finished with value: 0.7999584329211264 and parameters: {'lambda_l1': 0.0002231001138659911, 'lambda_l2': 0.015583783920469139, 'num_leaves': 254, 'feature_fraction': 0.543487373498558, 'bagging_fraction': 0.9949323910604055, 'bagging_freq': 6, 'min_child_samples': 5, 'learning_rate': 0.01669765024455244, 'n_estimators': 4451}. Best is trial 52 with value: 0.7999584329211264.

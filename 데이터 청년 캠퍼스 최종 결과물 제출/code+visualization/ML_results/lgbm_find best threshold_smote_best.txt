@@ -1,0 +1,23 @@
+best threshold : 0.5756375581246176
+              precision    recall  f1-score   support
+
+           0       0.94      0.95      0.95     19382
+           1       0.81      0.77      0.79      4963
+
+    accuracy                           0.92     24345
+   macro avg       0.88      0.86      0.87     24345
+weighted avg       0.91      0.92      0.92     24345
+
+[[18476   906]
+ [ 1136  3827]]
+0.9161224070651057
+0.7893976897689768
+0.8621808918761189
+
+print("best threshold : " + str(max_f1_thresh))
+
+    print(classification_report(y_test, y_prob_pred))
+    print(confusion_matrix(y_test, y_prob_pred))
+    print(accuracy_score(y_test, y_prob_pred))
+    print(f1_score(y_test, y_prob_pred))
+    print(roc_auc_score(y_test, y_prob_pred))

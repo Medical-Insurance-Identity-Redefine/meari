@@ -86,6 +86,9 @@ AI를 활용한 비급여 진료비 자가점검 서비스😊
       
 ### 5. run this folder 파일 설명
    
+	code+visualization\run this folder   
+	run this folder 전체를 주피터노트북에 올려서 Meari_final_code.ipynb 실행   
+   
 	5-1 최종 코드 관련   
 	1) Make_dictionary : 사전 구축 코드 파일   
 	2) Meari_final_code : OCR, NLP, ML 사용 코드 파일	   
@@ -101,23 +104,25 @@ AI를 활용한 비급여 진료비 자가점검 서비스😊
 	8) diagnosis : 진료 받은 사항에 대한 table detection 코드 결과물   
 	   
 	5-3 사전 관련   
-	1) stem_MethodDeleted.txt : rhino에 기본으로 탑재 된 명칭 사전
+	1) stem_MethodDeleted.txt : rhino에 기본으로 탑재 된 명칭 사전 -> 수정 / anaconda3 -> Lib -> site-packages -> rhinoMorph -> resource 파일에 stem_MethodDeleted.txt 교체   
 	2) insurance.txt : 급여 사전   
 	3) insurance_non.txt : 비급여 사전   
 	4) Dict_list.csv : 급여 명칭 csv 파일   
 	5) Dict_list_non.csv : 비급여 명칭 csv 파일   
 	   
 	5-4 머신러닝 관련 : Meari_final_code 주석 참고   
-  
+       
+          
+             
+             
+             
 
-### How To Use MEARI?
-1) anaconda3 -> Lib -> site-packages -> rhinoMorph -> resource 파일에 stem_MethodDeleted.txt 교체 
-2) runthisfolder -> Meari_final_code.ipynb -> RunAll
+### Jupyter Notebook 실행시 유의 사항
+1) run this folder를 그대로 업로드 -> Meari_final_code.ipynb 코드 실행 -> cell -> run all 실행    
+   
+2) pip install ~  or import ~ 오류 해결 방법 : package version check -> version에 맞는 package or library download   
 
-
-### How To Treat Error
-1) Version에 관한 오류 시 밑에 제시된 버전에 맞춰서 다운로드 후 실행.
-
+   
 ### Python Version 참조
 absl-py                            0.13.0   
 addict                             2.4.0   

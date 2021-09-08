@@ -18,13 +18,13 @@ class FirstViewController: UIViewController {
     @IBOutlet var callButton: UIButton!
     
     @IBAction func noRefundTapped(_ sender: Any) {
-        guard let appleUrl = URL(string: "https://www.hira.or.kr/re/diag/hospitalTeme.do?pgmid=HIRAA030009040000")   else { return }
+        guard let appleUrl = URL(string: "https://www.hira.or.kr/dummy.do?pgmid=HIRAA010002090100&cmsurl=/cms/medi_exp/01/1352739_26954.html")   else { return }
         guard UIApplication.shared.canOpenURL(appleUrl)             else { return }
 
         UIApplication.shared.open(appleUrl, options: [:], completionHandler: nil)
     }
     @IBAction func homePageTapped(_ sender: Any) {
-        guard let appleUrl = URL(string: "https://www.hira.or.kr/main.do")   else { return }
+        guard let appleUrl = URL(string: "https://www.hira.or.kr/re/diag/hospitalTeme.do?pgmid=HIRAA030009040000")   else { return }
         guard UIApplication.shared.canOpenURL(appleUrl)             else { return }
 
         UIApplication.shared.open(appleUrl, options: [:], completionHandler: nil)
@@ -78,21 +78,7 @@ class FirstViewController: UIViewController {
         makeShadow(yourView: self.applicantView)
         makeShadow(yourView: self.moneyView)
         makeShadow(yourView: self.processView)
-//        makeShadow(view: self.bigView)
-        
-        
-        // Do any additional setup after loading the view.
-    }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
-    */
 
 }
